@@ -1,10 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class chase : MonoBehaviour {
 
 	public Transform player;
 	static Animator anim;
+	public Slider healthbar;
 
 	// Use this for initialization
 	void Start () {
@@ -13,7 +15,8 @@ public class chase : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+		if (healthbar.value <= 0)
+			return;
 		Vector3 direction = player.position - this.transform.position;
 		float angle = Vector3.Angle (direction, this.transform.forward);
 		if (Vector3.Distance (player.position, this.transform.position) < 15 && angle < 50) {

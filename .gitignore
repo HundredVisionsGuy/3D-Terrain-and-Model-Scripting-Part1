@@ -1,18 +1,3 @@
-Skip to content
-This repository
-Search
-Pull requests
-Issues
-Gist
- @HundredVisionsGuy
- Watch 1,838
-  Star 42,010
- Fork 16,791 github/gitignore
- Code  Pull requests 166  Projects 0  Pulse  Graphs
-Branch: master Find file Copy pathgitignore/Unity.gitignore
-d605f91  on Jun 21
-@rpistorello rpistorello Added project folder created by Consulo IDE
-13 contributors @mviranyi @ahmyi @ahmedbaracat @ChemiKhazi @jstasiak @jephir @rpistorello @Frozenfire92 @Tandoori @cl4rke @shiftkey @vvolkgang @tim-hub
 RawBlameHistory     
 32 lines (26 sloc)  373 Bytes
 /[Ll]ibrary/
